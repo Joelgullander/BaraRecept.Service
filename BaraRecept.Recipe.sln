@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaraRecept.Recipe.Api.Tests", "BaraRecept.Recipe.Api.Tests\BaraRecept.Recipe.Api.Tests.csproj", "{B85AC30A-B120-4FB0-9039-45238572B9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaraRecept.Recipe.Contracts", "BaraRecept.Recipe.Contracts\BaraRecept.Recipe.Contracts.csproj", "{E2433370-81AA-4492-8273-8C444BFEA513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B56E19BC-660E-4D77-8662-26FC32F69472}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		NuGet.Config = NuGet.Config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaraRecept.Recipe.Api", "BaraRecept.Recipe.Api\BaraRecept.Recipe.Api.csproj", "{94BE7EC1-317E-4E02-97D9-AA297713F662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85AC30A-B120-4FB0-9039-45238572B9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85AC30A-B120-4FB0-9039-45238572B9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85AC30A-B120-4FB0-9039-45238572B9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85AC30A-B120-4FB0-9039-45238572B9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2433370-81AA-4492-8273-8C444BFEA513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2433370-81AA-4492-8273-8C444BFEA513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2433370-81AA-4492-8273-8C444BFEA513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2433370-81AA-4492-8273-8C444BFEA513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BE7EC1-317E-4E02-97D9-AA297713F662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BE7EC1-317E-4E02-97D9-AA297713F662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BE7EC1-317E-4E02-97D9-AA297713F662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BE7EC1-317E-4E02-97D9-AA297713F662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26E2E94A-B6D4-4B51-9B01-6D07518D313E}
+	EndGlobalSection
+EndGlobal
