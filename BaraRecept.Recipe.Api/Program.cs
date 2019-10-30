@@ -5,7 +5,7 @@ using App.Metrics.Formatters.Prometheus;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Bergendahls.Template.Api
+namespace BaraRecept.Recipe.Api
 {
     public class Program
     {

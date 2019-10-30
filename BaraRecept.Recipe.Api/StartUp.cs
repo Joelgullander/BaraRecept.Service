@@ -14,7 +14,7 @@ using BaraRecept.Recipe.Api.Services;
 using BaraRecept.Recipe.Api.Database;
 using Microsoft.EntityFrameworkCore;
 
-namespace Bergendahls.Template.Api
+namespace BaraRecept.Recipe.Api
 {
     /// <summary>
     /// Bootstraps the application

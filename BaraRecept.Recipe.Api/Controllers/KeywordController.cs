@@ -43,8 +43,9 @@ namespace BaraRecept.Recipe.Api.Controllers
             using (var db = new DatabaseContext())
             {
                 var keywords = db.Keywords;
-                var foundKeyword = keywords.FirstOrDefault(x => x.KeywordName == keyword.KeywordName);
+                var foundKeyword = keywords.FirstOrDefault(x => x.KeywordName.ToLower() == keyword.KeywordName.ToLower());
 
+                // If we find a match we don't want to create a duplicate.
                 if(foundKeyword != null)
                 {
                     return Ok(foundKeyword);
